@@ -1,4 +1,2 @@
 #!/n/ibash
-find . -type d -not -name '.' | wc -l
-
-
+find . -mindepht 1 -type d | wc -l
